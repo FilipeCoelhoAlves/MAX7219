@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1623717246 source:/home/filipe/workspace/avr/max7219/core328p/i2c.c
+	"i2c.h"
+
+1623717246 /home/filipe/workspace/avr/max7219/core328p/i2c.h
+	"hal.h"
+
+1623717587 /home/filipe/workspace/avr/max7219/core328p/hal.h
+	<avr/io.h>
+	<util/delay.h>
+	<avr/sleep.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<avr/interrupt.h>
+	<avr/pgmspace.h>
+	<util/setbaud.h>
+	"portManipulation.h"
+	"usart.h"
+	"spi.h"
+
+1623717246 /home/filipe/workspace/avr/max7219/core328p/portManipulation.h
+
+1623719848 /home/filipe/workspace/avr/max7219/core328p/usart.h
+	"hal.h"
+	<avr/io.h>
+	<util/setbaud.h>
+	<avr/pgmspace.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	<string.h>
+
+1623720428 /home/filipe/workspace/avr/max7219/core328p/spi.h
+	<avr/io.h>
+	"portManipulation.h"
+
+1623717246 source:/home/filipe/workspace/avr/max7219/core328p/usart.c
+	"usart.h"
+
+1623773410 source:/home/filipe/workspace/avr/max7219/main.c
+	"core328p/hal.h"
+	"max7219.h"
+
+1623720352 source:/home/filipe/workspace/avr/max7219/core328p/spi.c
+	"spi.h"
+
+1623773526 /home/filipe/workspace/avr/max7219/max7219.h
+	"core328p/spi.h"
+
