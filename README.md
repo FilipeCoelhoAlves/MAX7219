@@ -9,7 +9,9 @@ BAUD 9600
 CLOCK SPI 1MHz
 
 DIN - MOSI - PINO 11
+
 CS  - SS   - PINO 10
+
 CLK - CLK  - PINO 13
 
 
